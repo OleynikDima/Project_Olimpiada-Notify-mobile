@@ -23,27 +23,39 @@
     };
     &-title{
         &-first {
+            motion: 0;
             text-align: center;
             color: #2e2e2e;
             font-family: 'Raleway', sans-serif;
             font-size: 18px;
-            font-weight: 400;
+            font-weight: 700;
         }
         &-second {
+            margin: 0;
             text-align: center;
             color: #000000;
             font-family: "Raleway-Semi Bold",sans-serif;
             font-size: 24px;
+            margin-bottom: 20px;
         }
     }
+    &-people__list {
+        margin: 0;
+        padding: 0;
+        padding-bottom: 58px;
+    }
     &-text {
+        margin: 0;
         text-align: center;
         color: #848484;
         font-family: "Helvetica Neue",sans-serif;;
         font-size: 16px;
         font-weight: 400;
+        margin-bottom: 26px;
     };
     &-list{
+        margin: 0;
+        padding: 0;
         display: flex;
         justify-content: center;
         &__item {

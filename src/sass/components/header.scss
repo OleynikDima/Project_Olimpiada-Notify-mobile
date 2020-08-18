@@ -2,10 +2,13 @@
     margin: 0 auto;
     width: 1600px;
     height: 600px;
-    background-image: url('../../images/backgraund-img.png');
+    background-image: url('../images/backgraund-img.png');
+    background-position: center;
+    background-repeat: no-repeat;
     &-navigation {
         height: 100%;
         display:flex;
+        padding: 0 112px;
         position: relative;
     }
     &-container {
@@ -40,7 +43,7 @@
         margin: 0 0 16px;
         padding: 0;
         color: #ffffff;
-        font-family: "Helvetica Neue";
+        font-family: "Helvetica Neue",sans-serif;;
         font-size: 24px;
         font-weight: 500;
         line-height: 36px;
@@ -78,8 +81,8 @@
         height: 505px; 
         position: absolute;
         bottom: 0;
-        right: 0;
-        background-image: url('../../images/hand-telephone.png');
+        right: 58px;
+        background-image: url('../images/hand-telephone.png');
         background-repeat: no-repeat;
         background-position: bottom;
     }

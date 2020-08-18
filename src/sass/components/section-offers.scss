@@ -1,14 +1,13 @@
 .section-offers {
     margin: 0 auto;
-    margin-top: 36px;
-    margin-bottom: 36px; 
+    padding: 60px 0;
     width: 1600px;
-    color: red;
     
 }
 
 .offers-list {
     margin: 0;
+    padding: 0;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -28,7 +27,7 @@
         padding: 0;
         margin-bottom: 20px;
         color: #222222;
-        font-family: "Raleway - Semi Bold";
+        font-family: "Raleway - Semi Bold",sans-serif;;
         font-size: 22px;
         font-weight: 400;
     }
@@ -59,11 +58,11 @@
 
 //icon font
     .offers__icon--star::before{
-    background-image: url('../../images/icon-main/icon-star.png');
+    background-image: url('../images/icon-main/icon-star.png');
 }
     .offers__icon--grear::before{
-    background-image: url('../../images/icon-main/icon-gear.png');
+    background-image: url('../images/icon-main/icon-gear.png');
 }
     .offers__icon--earch::before{
-    background-image: url('../../images/icon-main/icon-earch.png');
+    background-image: url('../images/icon-main/icon-earch.png');
 }
