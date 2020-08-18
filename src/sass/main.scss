@@ -2,7 +2,13 @@
  * Все паршалы импортировать в этот файл
  */
 
+// @import './helpers/_reset.scss';
+@import './helpers/fonts.scss';
+
 @import 'normalize.scss';
 @import 'base.scss';
 @import 'components/header.scss';
-@import 'components/section.scss';
+@import 'components/section-offers.scss';
+@import 'components/section-form.scss';
+@import 'components/section-social.scss';
+@import 'components/footer.scss';

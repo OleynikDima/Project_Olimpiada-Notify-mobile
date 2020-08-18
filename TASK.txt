@@ -1,0 +1,5 @@
+1. to do header backgraund max-width
+2. add font with @import 'Pacifico';
+3. fix section.scss
+4. add font @import "Raleway - Semi Bold"
+5. add font "Raleway"
