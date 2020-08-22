@@ -14,13 +14,13 @@ const users =[
     {id:12 , url:'/images/img-people-12.png'},
     {id:13 , url:'/images/img-people-13.png'},
     {id:14 , url:'/images/img-people-14.png'},
-    {id:15 , url:'./images/img-people-15.png'},
-    {id:16 , url:'./images/img-people-16.png'},
-    {id:17 , url:'./images/img-people-17.png'},
-    {id:18 , url:'../images/img-people-18.png'},
-    {id:20 , url:'../images/img-people-20.png'},
-    {id:21 , url:'../images/img-people-21.png'},
-    {id:22 , url:'../images/img-people-22.png'},
+    {id:15 , url:'/images/img-people-15.png'},
+    {id:16 , url:'/images/img-people-16.png'},
+    {id:17 , url:'/images/img-people-17.png'},
+    {id:18 , url:'/images/img-people-18.png'},
+    {id:20 , url:'/images/img-people-20.png'},
+    {id:21 , url:'/images/img-people-21.png'},
+    {id:22 , url:'/images/img-people-22.png'},
 ];
 
 function mediaWidth(){
@@ -42,6 +42,7 @@ function startFaceImg(){
      }
 }
 
+console.log('test');
 
 
 const listPeople = document.querySelector('.list-js');
@@ -51,9 +52,9 @@ const listPeople = document.querySelector('.list-js');
 function createItemLi(users){
 const html = users.map(user => `<li class="sociale-people__item"><img class="sociale-people__img" src ="${user.url}"/></li>`).slice(startFaceImg(),mediaWidth()).join('')
 // console.log(html);
+
 listPeople.insertAdjacentHTML('afterbegin', html);
 };
-mediaWidth();
 createItemLi(users);
 
 
