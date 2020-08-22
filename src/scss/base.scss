@@ -17,3 +17,12 @@ body {
   width: 1180px;
   margin: 0 auto;
 }
+
+
+@media (max-width:475px){
+  .container {
+    // text-align:center;
+    width: 375px;
+  }
+
+}

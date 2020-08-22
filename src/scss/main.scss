@@ -3,7 +3,9 @@
  */
 
 // @import './helpers/_reset.scss';
-@import './helpers/fonts.scss';
+@import 'helpers/mixins.scss';
+@import 'helpers/fonts.scss';
+@import 'helpers/grid.scss';
 
 @import 'normalize.scss';
 @import 'base.scss';

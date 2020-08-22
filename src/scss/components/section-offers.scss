@@ -66,3 +66,18 @@
     .offers__icon--earch::before{
     background-image: url('../images/icon-main/icon-earch.png');
 }
+
+
+@media (max-width:475px){
+    .section-offers {
+        margin: 0 auto;
+        width: 475px;
+    }
+    .offers-list {
+        flex-direction:column;
+        &__item {
+            margin-bottom: 20px;
+        }
+    }
+    
+  }

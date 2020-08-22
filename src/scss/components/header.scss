@@ -5,6 +5,7 @@
     background-image: url('../images/backgraund-img.png');
     background-position: center;
     background-repeat: no-repeat;
+
     &-navigation {
         height: 100%;
         display:flex;
@@ -88,3 +89,21 @@
     }
 }
 
+@media (max-width:475px){
+    .header {
+        width: 475px;
+        &-navigation {
+            padding: 8px;
+        }
+        &-text{
+            padding-top: 20px;
+        }
+        &-handle-img {
+            display: none;
+        }
+        &-list {
+            padding-top: 50px;
+            justify-content: space-around;
+        }
+    }
+}

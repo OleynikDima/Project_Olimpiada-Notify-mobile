@@ -67,3 +67,22 @@
 }
 
 
+@media (max-width:475px){
+    .section-form-update {
+        width: 475px;
+    }
+
+    .form-update{
+        &-box {
+            padding: 5px;  
+            flex-direction:column;
+        };
+
+    }
+    .form {
+        margin-bottom: 20px;   
+        &__input {
+            width: 228px;
+        }
+    }
+}

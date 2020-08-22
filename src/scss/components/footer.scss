@@ -8,6 +8,12 @@
     &-list {
         display: flex;
         justify-content: center;
+        &__box-1 {
+            display: flex;
+        }
+        &__box-2 {
+            display: flex;
+        }
         &__item {
             margin-right: 36px;
             list-style:none;
@@ -19,6 +25,25 @@
             font-size: 16px;
             font-weight: 400;
             line-height: 26px;
+        }
+    }
+}
+
+@media (max-width:475px){
+    .footer {
+        margin: 0 auto;
+        width: 475px;
+        &-list {
+            justify-content: space-around;
+            &__box-1 {
+                display: block;
+            }
+            &__box-2 {
+                display: block;
+            }
+        }
+        &-container {
+            padding: 2px 0;
         }
     }
 }
