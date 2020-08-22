@@ -29,10 +29,10 @@
     }
 }
 
-@media (max-width:475px){
+@media (max-width:375px){
     .footer {
         margin: 0 auto;
-        width: 475px;
+        width: 375px;
         &-list {
             justify-content: space-around;
             &__box-1 {

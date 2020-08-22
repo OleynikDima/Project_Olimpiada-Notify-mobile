@@ -1,6 +1,6 @@
 "use strict"
-
-const users =[
+console.log('go!');
+let users =[
     {id:1 , url:'./images/img-people-1.png'},
     {id:2 , url:'./images/img-people-2.png'},
     {id:3 , url:'./images/img-people-3.png'},
@@ -22,10 +22,6 @@ const users =[
     {id:21 , url:'./images/img-people-21.png'},
     {id:22 , url:'./images/img-people-22.png'},
 ];
-
-
-console.log('go!');
-
 function mediaWidth(){
     const width = window.innerWidth;
      if (width > 758){
@@ -42,21 +38,11 @@ function startFaceImg(){
          return 1
      }
 }
-
-
-
-
 const listPeople = document.querySelector('.list-js');
 // listPeople.addEventListener('mouseenter', eventTarget)
-
-
 function createItemLi(users){
 const html = users.map(user => `<li class="sociale-people__item"><img class="sociale-people__img" src ="${user.url}"/></li>`).slice(startFaceImg(),mediaWidth()).join('')
 // console.log(html);
-
 listPeople.insertAdjacentHTML('afterbegin', html);
 };
 createItemLi(users);
-
-
-
