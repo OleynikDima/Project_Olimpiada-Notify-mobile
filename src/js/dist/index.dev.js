@@ -1,6 +1,6 @@
 "use strict"
 console.log('go!');
-let users =[
+const  users =[
     {id:1 , url:'./images/img-people-1.png'},
     {id:2 , url:'./images/img-people-2.png'},
     {id:3 , url:'./images/img-people-3.png'},
